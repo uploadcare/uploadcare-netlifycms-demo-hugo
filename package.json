@@ -44,7 +44,7 @@
     "postcss-uncss": "^0.14.0",
     "react": "15.6.1",
     "uncss": "^0.14.1",
-    "uploadcare-netlifycms": "git+ssh://git@github.com:uploadcare/uploadcare-netlifycms.git",
+    "uploadcare-netlifycms": "git+https://git@github.com:uploadcare/uploadcare-netlifycms.git",
     "url-loader": "^0.5.7",
     "webpack": "^3.0.0",
     "whatwg-fetch": "^1.0.0"

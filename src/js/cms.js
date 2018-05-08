@@ -7,6 +7,8 @@ import ProductsPreview from "./cms-preview-templates/products";
 import ValuesPreview from "./cms-preview-templates/values";
 import ContactPreview from "./cms-preview-templates/contact";
 
+import uploadcare from 'uploadcare-netlifycms'
+uploadcare()
 
 // Example of creating a custom color widget
 class ColorControl extends React.Component {

@@ -7,8 +7,14 @@ import ProductsPreview from "./cms-preview-templates/products";
 import ValuesPreview from "./cms-preview-templates/values";
 import ContactPreview from "./cms-preview-templates/contact";
 
-import uploadcare from 'uploadcare-netlifycms'
-uploadcare()
+import uploadcare from "uploadcare-netlifycms"
+
+uploadcare({
+  effectsTab: true,
+  widgetOptions: {
+    publickey: "60a28090283f8f0f7629"
+  }
+})
 
 // Example of creating a custom color widget
 class ColorControl extends React.Component {
